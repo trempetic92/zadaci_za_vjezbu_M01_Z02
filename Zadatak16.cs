@@ -25,7 +25,7 @@ namespace zadaci_za_vjezbu_M01_Z02
                             suma += i;
                         }
                     }
-                    if (suma == broj)
+                    if (suma == broj && broj != 0)
                     {
                         Console.WriteLine($"Uneseni broj {broj} je savršen broj");
                     }
