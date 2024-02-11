@@ -25,12 +25,20 @@ namespace zadaci_za_vjezbu_M01_Z02
                             suma += i;
                         }
                     }
-                    Console.WriteLine($"Uneseni broj {suma} je savršen broj");
+                    if (suma == broj)
+                    {
+                        Console.WriteLine($"Uneseni broj {broj} je savršen broj");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Uneseni broj {broj} nije savršen broj");
+                    }
+                    
                     suma = 0;
                 }
                 else
                 {
-                    Console.WriteLine($"Uneseni broj {suma} nije savršen broj");
+                    Console.WriteLine($"Unesite prirodni broj...");
                 }
             }
         }
