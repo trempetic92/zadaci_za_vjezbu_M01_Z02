@@ -87,6 +87,21 @@ namespace zadaci_za_vjezbu_M01_Z02
                     case "11":
                         Zadatak11.zadatak11();
                         break;
+                    case "12":
+                        Zadatak12.zadatak12();
+                        break;
+                    case "13":
+                        Zadatak13.zadatak13();
+                        break;
+                    case "14":
+                        Zadatak14.zadatak14();
+                        break;
+                    case "15":
+                        Zadatak15.zadatak15();
+                        break;
+                    case "16":
+                        Zadatak16.zadatak16();
+                        break;
                     case "0":
                         nastavi = false;
                         break;
