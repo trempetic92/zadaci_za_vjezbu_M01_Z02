@@ -102,6 +102,9 @@ namespace zadaci_za_vjezbu_M01_Z02
                     case "16":
                         Zadatak16.zadatak16();
                         break;
+                    case "17":
+                        Zadatak17.zadatak17();
+                        break;
                     case "0":
                         nastavi = false;
                         break;
